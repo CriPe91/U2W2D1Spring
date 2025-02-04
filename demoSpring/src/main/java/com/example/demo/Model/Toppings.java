@@ -1,4 +1,4 @@
-package com.example.demo.ConfigurationClass;
+package com.example.demo.Model;
 
 import lombok.*;
 
@@ -6,8 +6,9 @@ import lombok.*;
 @AllArgsConstructor
 @Getter
 @ToString
-public class Drinks {
-    private String name;
+
+public class Toppings {
+    private String nome;
     private int calorie;
     private double prezzo;
 }
