@@ -1,4 +1,4 @@
-package com.example.demo.Model;
+package com.example.demo.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,8 +9,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 @Builder
-public class Tavolo {
-    private int NumeroTavolo;
-    private int NumeroCoperti;
-    private boolean Stato = false;
+public class Table {
+
+    private int numTable;
+    private int numMaxCoperti;
+    private boolean stato;
+
 }
