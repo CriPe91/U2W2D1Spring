@@ -10,8 +10,7 @@ import org.springframework.stereotype.Service;
 public class OrdersService {
 
     @Autowired
-    @Qualifier("menu")
-    ObjectProvider<Menu> menuProvider;
+    @Qualifier("menu") ObjectProvider<Menu> menuProvider;
     @Autowired @Qualifier("tavolo1") ObjectProvider<Table> table1Provider;
     @Autowired @Qualifier("tavolo2") ObjectProvider<Table> table2Provider;
     @Autowired @Qualifier("order1") ObjectProvider<Order> order1Provider;
